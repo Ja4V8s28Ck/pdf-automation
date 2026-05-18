@@ -75,7 +75,7 @@ def _validate_numeric_fields(data):
         flags.append({
             "field": "quantity_produced",
             "issue_type": "missing",
-            "message": "Quantity Produced: the given value is empty",
+            "message": "Quantity produced value is not provided",
         })
 
     time_taken = data.get("time_taken", "").strip()
